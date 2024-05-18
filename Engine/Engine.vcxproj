@@ -40,8 +40,10 @@
     <ClInclude Include="src\textureshaderclass.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shaders\texture.ps" />
-    <None Include="shaders\texture.vs" />
+    <None Include="shaders\textureps.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="shaders\texturevs.hlsl" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

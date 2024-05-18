@@ -73,10 +73,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shaders\texture.ps">
+    <None Include="shaders\texturevs.hlsl">
       <Filter>Shader Files</Filter>
     </None>
-    <None Include="shaders\texture.vs">
+    <None Include="shaders\textureps.hlsl">
       <Filter>Shader Files</Filter>
     </None>
   </ItemGroup>
